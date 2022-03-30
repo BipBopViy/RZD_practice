@@ -1,0 +1,7 @@
+.main-header__bg {
+    position: absolute;
+    max-width: 100%;
+    min-height: 50%;
+    z-index: -1;
+    top: 0;
+}
