@@ -1,0 +1,16 @@
+.header__nav-bar {
+    max-width: 1050px;
+    font-size: 21px;
+    background-color: white;
+    border-radius: 25px;
+    display: grid;
+    padding: 30px;
+    padding-left:150px;
+    margin: 0 auto;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+}
+.container-fluid {
+    justify-content: space-around;
+    
+}

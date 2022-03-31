@@ -6,4 +6,7 @@
 @import '/common.blocks/main-header/__logo-text.css';
 @import '/common.blocks/main-header/__img-cab.css';
 @import '/common.blocks/main-header/__img-logo.css';
+@import '/common.blocks/main-header/__acc.css';
+@import '/common.blocks/main-header/__TM-logo.css';
+@import '/common.blocks/main-header/__nav-bar.css';
 @import '/common.blocks/wrapper.css';

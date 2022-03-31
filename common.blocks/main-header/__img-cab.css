@@ -1,4 +1,6 @@
 .main-header__img-cab {
-    width: 54px;
-    height: 54px;
+    width: 32px;
+    height: 32px;
+    display: table-cell;
+    vertical-align:middle;
 }

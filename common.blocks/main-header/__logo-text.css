@@ -1,5 +1,7 @@
 .main-header__logo-text {
     font-family: 'Roboto';
+    display: table-cell;
+    vertical-align:middle;
     color: white;
     font-size: 30px;
 }

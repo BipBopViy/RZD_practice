@@ -1,3 +1,4 @@
 .main-header__TM-log {
-    display: inline-block;
+    display:table;
+    text-align: center;
 }

@@ -1,0 +1,9 @@
+.section-1__favorite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:space-between;
+    margin: 0 auto;
+    background-color: #B0BED2;
+    justify-items:baseline;
+    border-radius: 25px;
+}
