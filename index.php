@@ -56,21 +56,22 @@
     </div>
         <div class="section-1">
         <h1 class="section-1__h1">Популярные направления:</h1>
-        <div class="section-1__favorite"><p class="section-1__p">Москва-Питер</p><div class="section-1__p_cost">от 1900 р</div></div>    
-        <div class="section-1__favorite"><p class="section-1__p">Москва-Казань</p><p class="section-1__p_cost"></p></div>  
-        <div class="section-1__favorite"><p class="section-1__p">Москва-Адлер</p><div class="section-1__p_cost"></div></div>  
-        <div class="section-1__favorite"><p class="section-1__p">Москва-Рязань</p><div class="section-1__p_cost"></div></div>  
+        <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1400р</span></div>    
+        <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1000р</span></div>   
+        <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1600р</span></div>   
+        <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1500р</span></div>   
         </div>
         <div class="news">
           <div class="wrapper">
            <h1 class="news__h1">Новости</h1>
             <div class="first__news">
-                
+                <p>длыовтаплтулдкпыовтадпитдыувп</p>
             </div>
             <div class="second__news">
-                
+                <p>длыовтаплтулдкп</p>
             </div>
             <div class="third__news">
+              <p>длыовтаплтулдкпвлоыатпиуоыпук</p>
                </div> 
             </div>
         </div>

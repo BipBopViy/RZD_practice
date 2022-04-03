@@ -1,9 +1,10 @@
 .section-1__favorite {
+    width: 90%;
+    max-height: 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content:space-between;
-    margin: 0 auto;
+    grid-template-columns: 1fr 150px;
+    padding: 18px 18px;
+    margin: 25px auto;
     background-color: #B0BED2;
-    justify-items:baseline;
     border-radius: 25px;
 }

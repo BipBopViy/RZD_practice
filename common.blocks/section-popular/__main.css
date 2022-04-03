@@ -1,10 +1,9 @@
 .section-1 {
     background-color: white;
-    text-align: center;
+    text-align: right;
     font-size: 35px;
-    width: 75%;
-    min-height: 480px;
+    width: 80%;
+    padding: 10px;
     margin: 21% auto;
-    padding-top:30px;
     border-radius: 25px;
 }
