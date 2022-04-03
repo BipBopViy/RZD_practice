@@ -7,8 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/common.blocks/main-header/declaration.css">
     <link rel="stylesheet" href="/common.blocks/section-popular/declaration.css">
+    <link rel="stylesheet" href="/common.blocks/footer/declaration.css">
+    <link rel="stylesheet" href="/common.blocks/news/declaration.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Serezhenko TM</title>
 </head>
 <body>
     <div class="wrapper">
@@ -61,19 +63,37 @@
         <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1600р</span></div>   
         <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1500р</span></div>   
         </div>
+
         <div class="news">
-          <div class="wrapper">
-           <h1 class="news__h1">Новости</h1>
+        <h1 class="news__h1">Новости</h1>
+          <div class="wrapper-news">
             <div class="first__news">
-                <p>длыовтаплтулдкпыовтадпитдыувп</p>
+                <p class="">Более 400 дополнительных поездов будут курсировать в майские праздники</p>
+                <p class="">Подробнее...</p>
             </div>
-            <div class="second__news">
-                <p>длыовтаплтулдкп</p>
+            <div class="first__news">
+                <p  class="">Движение скоростных поездов «Аллегро» между Россией и Финляндией приостанавливается с 28 марта</p>
             </div>
-            <div class="third__news">
-              <p>длыовтаплтулдкпвлоыатпиуоыпук</p>
+            <div class="first__news">
+              <p  class="">Железнодорожный тур к цветущим степям Калмыкии ждет путешественников в апреле</p>
                </div> 
             </div>
+        </div>
+
+        <div class="footer">
+        <div class="footer__text-1">
+            <div>8 800 775-00-00 звонок бесплатный для всех регионов РФ</div>
+            <div>a.serezhenko@inbox.ru для вопросов, связанных с электронными билетами</div>
+            <div class="main-header__TM-logo">
+              <span class="main-header__logo-text">Serezhenko TM</span>
+              <span class="main-header__logo-text"><img class="main-header__img-logo" src="https://img.icons8.com/dotty/80/000000/high-speed-train.png" /></span>
+            </div>
+          </div>
+          <hr />
+          <div class="footer__text-2">
+           <div>© ОАО «РЖД», 2003 - 2022</div>
+           <div>Свидетельство о регистрации СМИ Эл.№ФС77-25927 При использовании любых материалов ссылка на rzd.ru обязательна</div>
+          </div>
         </div>
 </body>
 

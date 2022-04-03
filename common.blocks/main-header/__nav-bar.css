@@ -5,12 +5,12 @@
     border-radius: 25px;
     display: grid;
     padding: 30px;
-    padding-left:150px;
-    margin: 0 auto;
+    padding-left: 150px;
+    margin: 14% auto;
     justify-content: space-around;
     grid-template-columns: repeat(4, 1fr);
 }
+
 .container-fluid {
     justify-content: space-around;
-    
 }

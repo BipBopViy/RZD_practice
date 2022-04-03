@@ -1,0 +1,11 @@
+.first__news {
+    text-align: left;
+    font-family: 'Roboto';
+    border-radius: 25px;
+    padding: 45px;
+    width: 400px;
+    font-size: 25px;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 70px;
+}

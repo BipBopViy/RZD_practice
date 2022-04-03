@@ -1,3 +1,7 @@
-.wrapper {
-     margin: 0px auto;
+.wrapper-news {
+    margin: 0px auto;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-around;
 }
