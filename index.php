@@ -26,33 +26,7 @@
                 </div>
             </div>
             
-            <nav class="navbar navbar-expand-lg navbar-light bg-light header__nav-bar">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Откуда
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Куда
-          </a>
-        </li>
-        <li class="nav-item">
-          <input type="date" class="nav-link dropdown-toggle"  href="#" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
-        </li>
-        <li class="nav-item dropdown">
-          <button type="button" class="btn btn-primary"><span class="">Найти</span></button>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+            
             <img src="/common.blocks/main-header/qwe2.jpg" class="main-header__bg">
         </header>
     </div>

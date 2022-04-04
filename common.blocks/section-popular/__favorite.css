@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 150px;
     padding: 18px 18px;
-    margin: 25px auto;
+    margin: 60px auto;
     background-color: #B0BED2;
     border-radius: 25px;
 }

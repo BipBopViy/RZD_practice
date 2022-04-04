@@ -6,7 +6,7 @@
     display: grid;
     padding: 30px;
     padding-left: 150px;
-    margin: 14% auto;
+    margin: 0px auto;
     justify-content: space-around;
     grid-template-columns: repeat(4, 1fr);
 }
