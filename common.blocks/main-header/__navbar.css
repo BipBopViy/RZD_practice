@@ -1,7 +1,8 @@
 .main-header__navbar {
-    display: grid;
-    max-width: 1050px;
-    grid-template-columns: 1fr 1fr;
+    max-width: 70%;
     margin: 0px auto;
-    padding: 28px;
+    padding-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 210px);
+    justify-content: space-between;
 }

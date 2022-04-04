@@ -14,3 +14,37 @@
 .container-fluid {
     justify-content: space-around;
 }
+
+
+.grid-mother {
+    margin: 250px auto;
+    max-width: 70%;
+    height: 99px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 210px);
+    background-color: white;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.border {
+    border: 0px solid white;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.seldemo {
+    margin: 38px auto;
+    border-right: 1px solid black;
+}
+
+.btncls {
+    height: 99px;
+    font-size: 20px;
+    background-color: #CBFDF4;
+    border: 0px;
+    border-radius: 0px 25px 25px 0px;
+    border-left: 1px solid black;
+    
+}
