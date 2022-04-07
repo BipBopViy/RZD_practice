@@ -17,8 +17,8 @@
 
 
 .grid-mother {
-  /*   margin: 250px auto;*/
-  /*  max-width: 70%; */
+    margin: 250px auto;
+   max-width: 70%; 
     height: 99px;
     display: grid;
     justify-content: space-between;
