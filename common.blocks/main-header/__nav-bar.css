@@ -17,8 +17,8 @@
 
 
 .grid-mother {
-    margin: 250px auto;
-    max-width: 70%;
+  /*   margin: 250px auto;*/
+  /*  max-width: 70%; */
     height: 99px;
     display: grid;
     justify-content: space-between;
@@ -37,6 +37,8 @@
 .seldemo {
     margin: 38px auto;
     border-right: 1px solid black;
+    
+    
 }
 
 .btncls {

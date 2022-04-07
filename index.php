@@ -15,6 +15,12 @@
 </head>
 
 <body>
+
+    <?php
+        include 'scripts/connect.php';
+        error_reporting(0);
+    ?>
+
     <div class="wrapper">
         <header class="main-header">
             <div class="main-header__navbar">
@@ -28,48 +34,24 @@
                 </div>
             </div>
 
-            <div class="grid-mother">
-                <form action="" method="post" >
-                    <div class="seldemo">
-                        <select name="selphp" class="border" value="ТЫ пидоп">
-                            <option value="" class="border">Откуда</option>
-                            <option value="" class="border">Воронеж</option>
-                            <option value="" class="border">Питер</option>
-                            <option value="" class="border">Красноадр</option>
-                            <option value="" class="border">Железногорск</option>
-                        </select>
-                    </div>
-                </form>
+            <form action="scripts/connect.php" method="post" class="grid-mother">
+                    <select name="selphpIN" class="seldemo">
+                        <option>Откуда</option> <option>Воронеж</option> <option>Питер</option> <option>Краснодар</option> <option>Железногорск</option>
+                    </select>
 
-                <form action="" method="post">
-                    <div class="seldemo">
-                        <select name="selphp" class="border">
-                            <option value="" class="border">Куда</option>
-                            <option value="" class="border">Воронеж</option>
-                            <option value="" class="border">Питер</option>
-                            <option value="" class="border">Красноадр</option>
-                            <option value="" class="border">Железногорск</option>
-                        </select>
-                    </div>
-                </form>
+                    <select name="selphpOUT" class="seldemo">
+                        <option>Куда</option> <option>Воронеж</option> <option>Питер</option> <option>Краснодар</option> <option>Железногорск</option>
+                    </select>
 
-                <form action="" method="post">
-                    <div class="seldemo">
-                        <input type="date" class="border">
-                    </div>
-                </form>
+                    <input type="date" class="seldemo" name="datein">
 
-                <form action="" method="post">
-                    <div class="seldemo">
-                        <input type="date" class="border">
-                    </div>
-                </form>
+                    <input type="date" class="seldemo" name="dateout">
 
-                <input type="submit" value="Найти" class="btncls">
-
-            </div>
+                    <input type="submit" value="Найти" class="btncls" action='/scripts/connect.php'>
+            </form>
 
             <img src="/common.blocks/main-header/qwe2.jpg" class="main-header__bg">
+            
         </header>
     </div>
     <div class="section-1">
