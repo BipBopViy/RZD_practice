@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--Cтили шрифт и bootstrap-->  
+   
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+<!--Стили declaration.css-->
+   
     <link rel="stylesheet" href="/common.blocks/main-header/declaration.css">
     <link rel="stylesheet" href="/common.blocks/section-popular/declaration.css">
     <link rel="stylesheet" href="/common.blocks/footer/declaration.css">
@@ -16,11 +21,15 @@
 
 <body>
 
+<!--Скрипты-->  
+   
     <?php
         include 'scripts/connect.php';
         error_reporting(0);
     ?>
 
+<!--Лого--> 
+   
     <div class="wrapper">
         <header class="main-header">
             <div class="main-header__navbar">
@@ -33,12 +42,13 @@
                     <span class="main-header__logo-text"><img class="main-header__img-cab" src="/common.blocks/main-header/codicon_account.png"></span>
                 </div>
             </div>
+            
+<!--Система поиска--> 
 
             <form action="scripts/connect.php" method="post" class="grid-mother">
                     <select name="selphpIN" class="seldemo">
                         <option>Откуда</option> <option>Воронеж</option> <option>Питер</option> <option>Краснодар</option> <option>Железногорск</option>
                     </select>
-
                     <select name="selphpOUT" class="seldemo">
                         <option>Куда</option> <option>Воронеж</option> <option>Питер</option> <option>Краснодар</option> <option>Железногорск</option>
                     </select>
@@ -49,11 +59,12 @@
 
                     <input type="submit" value="Найти" class="btncls" action='/scripts/connect.php'>
             </form>
-
-            <img src="/common.blocks/main-header/qwe2.jpg" class="main-header__bg">
-            
+            <img src="/common.blocks/main-header/background.jpg" class="main-header__bg">
         </header>
     </div>
+    
+<!--Секция с популярными направлениями-->
+   
     <div class="section-1">
         <h1 class="section-1__h1">Популярные направления:</h1>
         <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1400р</span></div>
@@ -62,6 +73,8 @@
         <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1500р</span></div>
     </div>
 
+<!--Секция с новостями--> 
+   
     <div class="news">
         <h1 class="news__h1">Новости</h1>
         <div class="wrapper-news">
@@ -78,6 +91,8 @@
         </div>
     </div>
 
+<!--Подвал-->  
+   
     <div class="footer">
         <div class="footer__text-1">
             <div>8 800 775-00-00 звонок бесплатный для всех регионов РФ</div>
@@ -94,5 +109,4 @@
         </div>
     </div>
 </body>
-
 </html>
