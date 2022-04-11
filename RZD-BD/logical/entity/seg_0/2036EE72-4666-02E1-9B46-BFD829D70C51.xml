@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2036EE72-4666-02E1-9B46-BFD829D70C51" name="road">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:01:37 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Places" id="FA4D5C50-42A0-4911-53DE-18815267E8B9">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:15:05 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seats" id="10653D6F-93E6-77F5-EF46-E5D83EAE7BAA">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:15:27 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="40B8AE3E-4E96-1C1B-FF04-BD36A5CD2BC3">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:48:28 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2C48D4F-4C87-63E4-27D8-1FAB786BEEBE" name="road PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:48:44 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA4D5C50-42A0-4911-53DE-18815267E8B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

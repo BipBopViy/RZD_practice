@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BC05E98-CAFF-FF47-0874-7C482BF20C98" name="train">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:38:03 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_train" id="2F79552E-AE0D-67C6-8972-B22CA7EDBB04">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:38:27 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="F84F0E9A-9FB6-94AC-1D90-C73E769827C1">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:38:52 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30E3C80B-68D2-DCE2-E17C-F7D012CED23F" name="train PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:38:50 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F79552E-AE0D-67C6-8972-B22CA7EDBB04</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

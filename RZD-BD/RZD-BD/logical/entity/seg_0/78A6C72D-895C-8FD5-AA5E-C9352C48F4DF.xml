@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78A6C72D-895C-8FD5-AA5E-C9352C48F4DF" name="road">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:27:47 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_road" id="339592E8-77E9-F7F6-3A1E-B5C80450FCB6">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:39:53 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="places" id="4C22A5B4-0D6A-E2C8-D445-BC6E46360EF8">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:40:05 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="EF6D9B76-E11A-28A5-41F0-166D240868D9">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:40:58 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F594E260-8570-E52C-7AAF-949D95BE16AD" name="road PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:40:04 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>339592E8-77E9-F7F6-3A1E-B5C80450FCB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

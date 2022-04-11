@@ -1,0 +1,5 @@
+.main-header__TM-logo {
+    display: inline-grid;
+    grid-template-columns: repeat(2,170px);
+    
+}

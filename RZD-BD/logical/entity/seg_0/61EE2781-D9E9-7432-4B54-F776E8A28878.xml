@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61EE2781-D9E9-7432-4B54-F776E8A28878" name="Ticket">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:19:20 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ticket" id="CD376ACD-0E06-8F16-9311-0E7A68A99602">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:51:34 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_composition" id="E011B7A6-4AE2-0D09-35F9-7255276DD1FE">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:56:57 UTC</createdTime>
+<generatorID>35B1636B-7F43-2C37-8906-641496D31F08</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<referedAttribute>E9C627C5-EA04-04A4-E150-9C35EB787CFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Chair" id="17E50A64-53F7-2303-81C5-94328D29A3DA">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:53:48 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Class" id="293B9884-E60E-2B07-C395-C846131CA029">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:54:12 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="A1D6A963-BB4A-9A70-1793-D626D7112455">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:54:33 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_person" id="061303CC-3670-5B95-4FAA-FFEC9A73102C">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:28 UTC</createdTime>
+<generatorID>BCDB90C1-B984-6A81-7D45-C2EF17368B4F</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="true"/>
+</engineerTo>
+<referedAttribute>EE583EF3-39FB-9D4B-5523-C371D1ED49FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6025B928-3C0B-9827-11F3-672766EF9681" name="Ticket PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 08:08:53 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1E4D89F4-EE12-FA46-6FF2-558939C91682" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E011B7A6-4AE2-0D09-35F9-7255276DD1FE</attributeRef>
+<attributeRef>CD376ACD-0E06-8F16-9311-0E7A68A99602</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

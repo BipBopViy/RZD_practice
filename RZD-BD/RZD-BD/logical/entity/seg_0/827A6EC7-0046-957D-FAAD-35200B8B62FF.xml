@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="827A6EC7-0046-957D-FAAD-35200B8B62FF" name="train">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:28:44 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_train" id="584D0BA4-3FFF-3FB0-D90F-EDA69B037A0F">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:38:49 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="A51A5877-5242-1452-C210-B72CF49B9EFE">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:39:21 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59819331-99AE-F371-1B3C-110774B8D884" name="train PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-08 07:39:22 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>584D0BA4-3FFF-3FB0-D90F-EDA69B037A0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="557D4D26-BB0C-6981-D312-B537738AD3EE" name="team">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>41EFB079-F1AD-E343-0D03-F3507B0C9E74</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_team" id="BC419A2B-00A1-CEC5-F9F6-4A32EA7B2A5F">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>939F621A-4784-BD94-25D9-3D2A34F395B5</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pilot" id="E7110278-19E3-25EE-B3CE-429DCE1603BC">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>197CD78C-5AD4-52E5-99B8-3437328383E3</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CrewsName" id="93154CD9-72DA-5CFF-508D-31692C1590F9">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>2EA59554-89DD-7B88-A28F-0DF320E91511</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F410438-B5DE-8F41-82C3-23E2A8314AE6" name="team_PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>DAD2DA68-D9C8-A4F9-D753-C4EF872BF52B</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC419A2B-00A1-CEC5-F9F6-4A32EA7B2A5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

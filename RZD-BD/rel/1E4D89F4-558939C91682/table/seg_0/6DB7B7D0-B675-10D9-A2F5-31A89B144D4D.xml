@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DB7B7D0-B675-10D9-A2F5-31A89B144D4D" name="composition">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>6D797525-6D11-DA34-2798-70C324DE1C81</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_composition" id="0BD76EFA-D00D-80BB-57A2-5DE42D961D67">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>E9C627C5-EA04-04A4-E150-9C35EB787CFC</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="train_ID_train" id="14FCF8FE-646D-0BCB-CE4C-D9437A7137A2">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>98A88916-5C33-57F6-DCD5-A73D4EF80130</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EE6E8FC-A06C-A745-6A57-7E80A95A9C11" referredColumn="C6D17BBC-73FE-6792-DECA-8C262A2704D3"/>
+</associations>
+</Column>
+<Column name="team_ID_team" id="D48625EF-B901-6A01-2E38-B13DB62200D3">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>0CD3342F-5D24-5695-F9C7-37515703A3EE</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="012A724F-700C-5CE7-3FC4-D29B81C023FE" referredColumn="BC419A2B-00A1-CEC5-F9F6-4A32EA7B2A5F"/>
+</associations>
+</Column>
+<Column name="Data" id="F32A3DF3-0E24-5123-DC4F-7CC0EF51F22E">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>BA5E3F9A-FB2E-8EEF-E8BE-5F955F40A272</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="9B6576F2-06C3-BA3C-781F-9E91C869A433">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>321F4CAE-9AA0-B40A-6286-99D2CB900FA4</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arrival" id="779774C9-4931-EFDC-AC82-15D6AC3D1874">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>F7BEF0DD-C1A8-CDE0-273B-5398080CFA1F</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ArrivalTime" id="EF023437-3272-44CC-9A15-981365F6EF29">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>26ECDBC3-B570-AEFD-17DF-C1378B7FE3F8</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Composion_photo" id="BA2CB058-C0CB-8DE9-00CC-2B8C95C13194">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>DE9773F1-90E7-F297-659B-8A23959C98B0</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Raises" id="7794A8C5-756C-4875-702A-2C9436055C85">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>FDBC7957-7EA2-7D87-2B91-9A67A0D26C70</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="road_Places" id="F800CB65-48F3-2751-32B6-324B6FA07193">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>A4F1B7D2-2B64-2C2D-76EE-46169973EF84</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE4902E8-F5D1-8986-FEC6-515E6425F97D" referredColumn="94F4CFEB-6846-3904-7C4F-B6024FFF8D49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="774AF076-348D-93D7-D7BF-19B39404B689" name="composition_PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>D88B60FF-5300-67E7-1F92-ABE2BC0A50D2</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD76EFA-D00D-80BB-57A2-5DE42D961D67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF7AC710-8424-8C73-71F6-8AAFE5B8EA80" name="composition__IDX">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1DEE1831-F6A8-8417-752B-668C9D372D43</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="14FCF8FE-646D-0BCB-CE4C-D9437A7137A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0D54711-ABE2-C186-0DDF-9775530F3DC5" name="composition__IDXv1">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>475D8357-534E-20EF-B0DB-A3DFA47E616C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F800CB65-48F3-2751-32B6-324B6FA07193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF0320BC-79C2-DBF9-D283-DEEC614ADC5A" name="composition__IDXv2v1">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E9ED032C-3ADA-711C-DFF5-9F6E2D804E6F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D48625EF-B901-6A01-2E38-B13DB62200D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F574712F-F4F3-382B-85CD-D79AF762D048" name="composition_train_FK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>1DEE1831-F6A8-8417-752B-668C9D372D43</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14FCF8FE-646D-0BCB-CE4C-D9437A7137A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57BDB3B1-FBDB-92F5-C48C-00CB25AC160B" name="composition_road_FK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>475D8357-534E-20EF-B0DB-A3DFA47E616C</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F800CB65-48F3-2751-32B6-324B6FA07193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0E876D5-A0DD-BB1D-A4D4-1E8021A879DC" name="composition_team_FK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>E9ED032C-3ADA-711C-DFF5-9F6E2D804E6F</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D48625EF-B901-6A01-2E38-B13DB62200D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

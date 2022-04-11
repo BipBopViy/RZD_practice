@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RZD-BD" id="4DE62923-BDCB-4CC1-62AF-0DC6F81FB42A" version="3.5">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 09:00:37 UTC</createdTime>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4DE62923-BDCB-4CC1-62AF-0DC6F81FB42A</designId>
+</OSDM_Design>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AAE11B8-33DD-551E-FF15-FA5E615D8FDB" name="road">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>2036EE72-4666-02E1-9B46-BFD829D70C51</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Places" id="94F4CFEB-6846-3904-7C4F-B6024FFF8D49">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>FA4D5C50-42A0-4911-53DE-18815267E8B9</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seats" id="8A98DA77-6C87-2D29-6DE6-E0DD1D0C1DB4">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>10653D6F-93E6-77F5-EF46-E5D83EAE7BAA</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Year" id="4992FF57-DFDA-D7B7-BA78-97271AC708C0">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>40B8AE3E-4E96-1C1B-FF04-BD36A5CD2BC3</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F1CE500-ACFE-2DCA-947C-C7032BD5DDAB" name="road_PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-01 10:10:21 UTC</createdTime>
+<generatorID>E2C48D4F-4C87-63E4-27D8-1FAB786BEEBE</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94F4CFEB-6846-3904-7C4F-B6024FFF8D49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,9 +1,7 @@
 <?php 
-    $bd = mysqli_connect('localhost', 'root', '', 'test1');
-    echo $_POST['selphpIN'] . ' ';
-    echo $_POST['selphpOUT'] . ' ';
-    echo $_POST['datein'] . ' ';
-    echo $_POST['dateout'] . ' ';
-    error_reporting(E_ALL & ~E_NOTICE);
-    error_reporting(0);
+    $bd = mysqli_connect('localhost', 'root', '', 'test2');
+    $sel1 = $_POST['selphpIN'];
+    $sel2 = $_POST['selphpOUT'];
+    $sel3 = $_POST['datein'];
+    $sel4 = $_POST['dateout'];
 ?>

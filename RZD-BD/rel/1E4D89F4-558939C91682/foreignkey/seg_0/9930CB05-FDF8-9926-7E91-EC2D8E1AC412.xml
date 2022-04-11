@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9930CB05-FDF8-9926-7E91-EC2D8E1AC412" containerWithKeyObject="C89ED61C-2F8C-0DBA-D3B1-68850BA93F81" localFKIndex="037FB8DB-0128-F655-E29E-C927FD782C8F" name="Ticket_composition_FK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>35B1636B-7F43-2C37-8906-641496D31F08</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<referredTableLongName>composition</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DB7B7D0-B675-10D9-A2F5-31A89B144D4D</referredTableID>
+<keyObject>774AF076-348D-93D7-D7BF-19B39404B689</keyObject>
+<referredKeyID>774AF076-348D-93D7-D7BF-19B39404B689</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_composition</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

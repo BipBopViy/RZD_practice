@@ -64,20 +64,33 @@
     </div>
     
 <!--Доступные билеты-->    
-    
-    <h1 class="">Доступные билеты</h1>
-    <div class="tickets">
-        <p>переменная1-время \n
-           переменная1-городвыезд</p>
-        <img>
-        <p>переменная1-время \n
-           переменная1-городвъезд</p>
-        <p>Переменная-класспоезда + цена</p>
-        <p>Переменная-класспоезда + цена</p>
-        <p>Переменная-класспоезда + цена
-        </p>
+    <div class="ticketsGenerator">
+    <?php
+    $bd = mysqli_connect('localhost', 'root', '', 'test2');
+    if (!$bd) {
+    echo 'Не могу соединиться с БД. Код ошибки: ' . mysqli_connect_errno() . ', ошибка: ' . mysqli_connect_error();
+  } else {
+        echo 'Соединение выполнено успешно' . '<br>';
+    }
+    $quer = mysqli_query($bd, "SELECT places FROM `road`");
+    $res = mysqli_fetch_assoc($quer);
+    print_r($food);
+    if ($res == false) {
+    echo " Произошла ошибка при выполнении запроса";
+} else {
+        echo 'Запрос успешно выполнен' . '<br>';
+    }
+        echo $res;
+    echo '<div>';
+    echo "<span style='color: red; font-size: 20px;'.>Направление состава: </span>" . $res['places']; 
+   // echo "<b>Год выпуска:</b>".$row['year']."<br>";
+   // echo "<b>Объем:</b>".$row['vol']."<br>";
+   // echo "<b>Тип двигателя:</b>".$row['engine']."<br>";
+   // echo "<b>Тип привода:</b>".$row['gear']."<br>";
+  //  echo "<b>Тип кузова:</b>".$row['venicle']."<br>";
+    echo '</div>';   
+?>
     </div>
-    
 <!--Подвал-->  
    
     <div class="footer">

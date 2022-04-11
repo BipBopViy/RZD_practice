@@ -21,10 +21,27 @@
 
 <body>
 
+<?php
+    include '../scripts/connect.php';
+    $bd = mysqli_connect('localhost', 'root', '', 'test1');
+    $select1 = 'Питер';
+    $select2 = $_POST['select2'];
+    $select3 = $_POST['select3'];
+    $select4 = $_POST['select4'];
+    
+    $result = mysqli_query($bd, 'SELECT * FROM `search`  WHERE `inCountry` == `$select1`');
+    $res = mysql_fetch_array($result);
+    if (mysql_num_rows($result) > 0) {
+        echo 'Работает';
+    } else {
+        echo 'Не работает';
+    }
+?>
+
 <!--Скрипты-->  
    
     <?php
-        include 'scripts/connect.php';
+        include '../scripts/connect.php';
         error_reporting(0);
     ?>
 
@@ -38,14 +55,14 @@
                     <span class="main-header__logo-text"><img class="main-header__img-logo" src="https://img.icons8.com/dotty/80/000000/high-speed-train.png" /></span>
                 </div>
                 <div class="main-header__account">
-                    <a href="/pages/tickets.php" class="main-header__acc">Личный кабинет</a>
+                    <a href="" class="main-header__acc">Личный кабинет</a>
                     <span class="main-header__logo-text"><img class="main-header__img-cab" src="/common.blocks/main-header/codicon_account.png"></span>
                 </div>
             </div>
             
 <!--Система поиска--> 
 
-            <form action="pages/action.php" method="post" class="grid-mother">
+            <form action="pages/connect.php" method="post" class="grid-mother">
                     <select name="selphpIN" class="seldemo">
                         <option>Откуда</option> <option>Воронеж</option> <option>Питер</option> <option>Краснодар</option> <option>Железногорск</option>
                     </select>
@@ -57,39 +74,12 @@
 
                     <input type="date" class="seldemo" name="dateout">
 
-                    <input type="submit" value="Найти" class="btncls" action='/pages/tickets.php'>
+                    <input type="submit" value="Найти" class="btncls" action='/scripts/connect.php'>
             </form>
             <img src="/common.blocks/main-header/background.jpg" class="main-header__bg">
         </header>
     </div>
-    
-<!--Секция с популярными направлениями-->
-   
-    <div class="section-1">
-        <h1 class="section-1__h1">Популярные направления:</h1>
-        <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1400р</span></div>
-        <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1000р</span></div>
-        <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1600р</span></div>
-        <div class="section-1__favorite"><span class="section-1__p">Москва-Питер</span><span class="section-1__p_cost">от 1500р</span></div>
-    </div>
-
-<!--Секция с новостями--> 
-   
-    <div class="news">
-        <h1 class="news__h1">Новости</h1>
-        <div class="wrapper-news">
-            <div class="first__news">
-                <p>Более 400 дополнительных поездов будут курсировать в майские праздники</p>
-            </div>
-            <div class="first__news">
-                <p>Движение скоростных поездов «Аллегро» между Россией и Финляндией приостанавливается с 28 марта</p>
-            </div>
-            <div class="first__news">
-                <p>Железнодорожный тур к цветущим степям Калмыкии ждет путешественников в апреле</p>
-            </div>
-        </div>
-    </div>
-
+ 
 <!--Подвал-->  
    
     <div class="footer">

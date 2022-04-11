@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C3F1AEC-1124-8AD2-51BD-CB902E472EE1" name="person">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:37 UTC</createdTime>
+<generatorID>19FC1937-7F8D-4BA0-A0FA-5A6776DE299B</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_person" id="755B58BB-D204-0C76-EE52-FD98BE5ECE57">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:37 UTC</createdTime>
+<generatorID>EE583EF3-39FB-9D4B-5523-C371D1ED49FA</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIO" id="1D19146D-5424-4C32-D7DD-C39B4284215E">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:37 UTC</createdTime>
+<generatorID>5D092C34-68AC-28FB-EAC9-8737B7BDDA15</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BuyDate" id="9D333B6C-52AF-FD8D-DD27-230504391D12">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:37 UTC</createdTime>
+<generatorID>700B8D4F-D658-E604-F5A3-82582B1377DE</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pasport_num" id="C0FC6DCB-B960-B5A0-4E2E-1D77B98DE093">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:37 UTC</createdTime>
+<generatorID>40AD7DF8-13CC-62BC-06EB-3C4B02CEDAB6</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pasport_date" id="633F9223-94E9-7CCE-D45C-F9CD5A3621EA">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:37 UTC</createdTime>
+<generatorID>D27E0B3A-E1DC-46E2-1F7D-7E651A699E70</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region" id="442357F3-AE81-BB0C-AA3D-4C8CD663EBAC">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:37 UTC</createdTime>
+<generatorID>E3E0C863-6392-7470-9441-77CC43B5EB0A</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="873F7A86-B9F0-8C45-9334-C5A94B97C288" name="person_PK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-03 12:08:37 UTC</createdTime>
+<generatorID>42F76CAD-E2FD-0838-1135-BDAA10981AE3</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="755B58BB-D204-0C76-EE52-FD98BE5ECE57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

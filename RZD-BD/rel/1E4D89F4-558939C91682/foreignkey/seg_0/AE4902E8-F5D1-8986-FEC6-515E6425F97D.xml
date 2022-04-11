@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE4902E8-F5D1-8986-FEC6-515E6425F97D" containerWithKeyObject="6DB7B7D0-B675-10D9-A2F5-31A89B144D4D" localFKIndex="57BDB3B1-FBDB-92F5-C48C-00CB25AC160B" name="composition_road_FK">
+<createdBy>Alexey</createdBy>
+<createdTime>2022-04-02 09:58:06 UTC</createdTime>
+<generatorID>475D8357-534E-20EF-B0DB-A3DFA47E616C</generatorID>
+<ownerDesignName>RZD-BD</ownerDesignName>
+<referredTableLongName>road</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2AAE11B8-33DD-551E-FF15-FA5E615D8FDB</referredTableID>
+<keyObject>4F1CE500-ACFE-2DCA-947C-C7032BD5DDAB</keyObject>
+<referredKeyID>4F1CE500-ACFE-2DCA-947C-C7032BD5DDAB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Places</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
