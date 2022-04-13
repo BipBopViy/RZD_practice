@@ -16,17 +16,15 @@
     <link rel="stylesheet" href="/common.blocks/footer/declaration.css">
     <link rel="stylesheet" href="/common.blocks/news/declaration.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
     <title>Serezhenko TM</title>
 </head>
 
 <body>
 
 <!--Скрипты-->  
-   
-    <?php
-        include '../scripts/connect.php';
-        error_reporting(0);
-    ?>
+
 
 <!--Лого--> 
    
@@ -45,19 +43,19 @@
             
 <!--Система поиска--> 
 
-            <form action="scripts/connect.php" method="post" class="grid-mother">
+            <form action="../pages/tickets.php" method="post" class="grid-mother">
                     <select name="selphpIN" class="seldemo">
-                        <option>Откуда</option> <option>Воронеж</option> <option>Питер</option> <option>Краснодар</option> <option>Железногорск</option>
+                        <option>Откуда</option> <option>Москва</option> <option>Санкт-Петербург</option> <option>Краснодар</option> <option>Железногорск</option>
                     </select>
                     <select name="selphpOUT" class="seldemo">
-                        <option>Куда</option> <option>Воронеж</option> <option>Питер</option> <option>Краснодар</option> <option>Железногорск</option>
+                        <option>Куда</option> <option>Санкт-Петербург</option> <option>Питер</option> <option>Краснодар</option> <option>Железногорск</option>
                     </select>
-
-                    <input type="date" class="seldemo" name="datein">
 
                     <input type="date" class="seldemo" name="dateout">
 
-                    <input type="submit" value="Найти" class="btncls" action='/scripts/connect.php'>
+                    <input type="date" class="seldemo" name="datein">
+
+                    <input type="submit" value="Найти" class="btncls" >
             </form>
             <img src="/common.blocks/main-header/background.jpg" class="main-header__bg">
         </header>
@@ -66,29 +64,49 @@
 <!--Доступные билеты-->    
     <div class="ticketsGenerator">
     <?php
-    $bd = mysqli_connect('localhost', 'root', '', 'test2');
-    if (!$bd) {
-    echo 'Не могу соединиться с БД. Код ошибки: ' . mysqli_connect_errno() . ', ошибка: ' . mysqli_connect_error();
-  } else {
-        echo 'Соединение выполнено успешно' . '<br>';
-    }
-    $quer = mysqli_query($bd, "SELECT places FROM `road`");
-    $res = mysqli_fetch_assoc($quer);
-    print_r($food);
-    if ($res == false) {
+        
+    $sel1 = $_POST['selphpIN'];
+    $sel2 = $_POST['selphpOUT'];
+    $sel3 = $_POST['dateout'];
+    $sel4 = $_POST['datein'];
+        
+    $bd = mysqli_connect('localhost', 'root', '', 'test8');
+    if (!$bd) { echo 'Не могу соединиться с БД. Код ошибки: ' . mysqli_connect_errno() . ', ошибка: ' . mysqli_connect_error(); } else { echo 'Соединение выполнено успешно' . '<br>'; }
+    
+    $quer1 = mysqli_query($bd, "SELECT outDate FROM `search`");   
+    $quer2 = mysqli_query($bd, "SELECT inDate FROM `search`");   
+    $quer3 = mysqli_query($bd, "SELECT outTime FROM `search`");
+    $quer4 = mysqli_query($bd, "SELECT inTime FROM `search`");
+    $quer5 = mysqli_query($bd, "SELECT outC FROM `search`");
+    $quer6 = mysqli_query($bd, "SELECT inC FROM `search`");
+        
+    $res1 = mysqli_fetch_assoc($quer1);
+    $res2 = mysqli_fetch_assoc($quer2);
+    $res3 = mysqli_fetch_assoc($quer3);
+    $res4 = mysqli_fetch_assoc($quer4);
+    $res5 = mysqli_fetch_assoc($quer5);
+    $res6 = mysqli_fetch_assoc($quer6);
+    print_r ($res5);
+    print_r ($res6);
+    
+    if ($quer1 == false) {
     echo " Произошла ошибка при выполнении запроса";
 } else {
         echo 'Запрос успешно выполнен' . '<br>';
     }
-        echo $res;
-    echo '<div>';
-    echo "<span style='color: red; font-size: 20px;'.>Направление состава: </span>" . $res['places']; 
-   // echo "<b>Год выпуска:</b>".$row['year']."<br>";
-   // echo "<b>Объем:</b>".$row['vol']."<br>";
-   // echo "<b>Тип двигателя:</b>".$row['engine']."<br>";
-   // echo "<b>Тип привода:</b>".$row['gear']."<br>";
-  //  echo "<b>Тип кузова:</b>".$row['venicle']."<br>";
-    echo '</div>';   
+        
+    while($res5 = mysqli_fetch_array($quer5) and $res6 = mysqli_fetch_array($quer6)){ 
+    echo '<div style="background-color: white; height: 100%; margin: 20px auto; border-radius: 25px; padding: 30px; font-size: 20px; width: 1050px; display: grid; grid-template-columns: repeat(4, 100px);">';
+    
+    echo "<div style='font-size: 30px; margin-right: 3px;'></div>" . $res5['outC'] ;
+    echo "<div style='font-size: 30px; margin-right: 3px;'></div>" . $res6['inC'] ;
+    echo "<div style='font-size: 30px; margin-right: 3px;'></div>" . $res3['outTime'] ;
+    echo "<div style='font-size: 30px; margin-right: 3px;'></div>" . $res4['inTime'] ;
+  //  echo '<span class="main-header__logo-text"><img class="main-header__img-cab" src="/common.blocks/main-header/codicon_account.png"></span>';
+   // echo "<span style='font-size: 20px; margin-right: 3px;  margin-left: 100px;'>Прибытие в: </span>" . $res2['INC']; 
+
+    echo '</div>';  
+    }
 ?>
     </div>
 <!--Подвал-->  
